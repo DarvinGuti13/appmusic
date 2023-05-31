@@ -203,14 +203,14 @@ header .menu_side .playlist h4{
 
 
          /************************************************** Master Play ***********************************************/
-         footer .master_play{
+         .footer .master_play{
             display: flex;
             align-items: center;
             padding: 0px 20px;
                    
           }
 
-          footer .master_play .wave{
+          .footer .master_play .wave{
             width: 30px;
             height: 30px;
          /*   border: 1px solid #fff;*/
@@ -220,7 +220,7 @@ header .menu_side .playlist h4{
             margin-right: 10px;
          }
 
-         footer .master_play .wave .wave1{
+         .footer .master_play .wave .wave1{
             width: 3px;
             height: 10px;
             margin-right: 3px;
@@ -229,24 +229,24 @@ header .menu_side .playlist h4{
             animation: wave 2s linear infinite;
          }
         
-         footer .master_play .wave .wave1:nth-child(2){
+         .footer .master_play .wave .wave1:nth-child(2){
             height: 13px;
              animation-delay: .4s; 
          }
-         footer .master_play .master_play .wave .wave1:nth-child(3){
+         .footer .master_play .master_play .wave .wave1:nth-child(3){
             height: 8px;
             animation-delay: .8s; 
          }
 
          /*javascript class */
-         footer .master_play .active2 .wave1{
+         .footer .master_play .active2 .wave1{
             animation: wave .5s linear infinite;
          }
 
-         footer .master_play .active2 .wave1:nth-child(2){
+         .footer .master_play .active2 .wave1:nth-child(2){
             animation-delay: .4s;
          }
-         footer .master_play .active2 .wave1:nth-child(3){
+         .footer .master_play .active2 .wave1:nth-child(3){
             animation-delay: .8s;
          }
 
@@ -261,12 +261,12 @@ header .menu_side .playlist h4{
                 height: 10px;
             }
          }
-         footer .master_play img{
+         .footer .master_play img{
      width: 35px;
      height: 35px;
 
 }
-footer .master_play h5{
+.footer .master_play h5{
     width: 130px;
     font-size: 13px;
     margin-left: 15px;
@@ -274,14 +274,14 @@ footer .master_play h5{
     line-height: 17px;
 }
 
-footer .master_play h5 .subtitle{
+.footer .master_play h5 .subtitle{
     font-size: 11px;
     color: #4c5262;
 }
 
 
 
-footer .master_play .icon{
+.footer .master_play .icon{
     display: flex;
     font-size: 20px;
     color: #fff;
@@ -291,12 +291,12 @@ footer .master_play .icon{
 
 
 
-footer .master_play  .icon .bi{
+.footer .master_play  .icon .bi{
     cursor: pointer;
     outline: none;
 }
 
-footer .master_play .icon .bi:nth-child(2){
+.footer .master_play .icon .bi:nth-child(2){
     border: 1px solid rgb(105, 105, 170,.1);
     border-radius: 50%;
     padding: 1px 3px 0px 6px;
@@ -304,17 +304,17 @@ footer .master_play .icon .bi:nth-child(2){
     transition: .3s linear;
 }
 
-footer .master_play span{
+.footer .master_play span{
     color: #fff;
     width: 32px;
     font-size: 11px;
     font-weight: 400;
 }
-footer .master_play  #inicio{
+.footer .master_play  #inicio{
     margin: 0px 0px 0px 20px;
 }
 
-footer .master_play .bar{
+.footer .master_play .bar{
     position: relative;
     width: 60%;
     height: 2px;
@@ -322,7 +322,7 @@ footer .master_play .bar{
     margin: 0px 15px 0px 10px;
     
 }
-footer .master_play  .bar .bar2{
+.footer .master_play  .bar .bar2{
     position: absolute;
     background: #36e2ec;
     width: 20%;
@@ -330,7 +330,7 @@ footer .master_play  .bar .bar2{
     top: 0;
 }
 
-footer .master_play   .bar .bar2{
+.footer .master_play   .bar .bar2{
     position: absolute;
     background: #36e2ec;
     width: 0%;
@@ -339,7 +339,7 @@ footer .master_play   .bar .bar2{
     transition: 1s linear;
 }
 
-footer .master_play .bar .dot{
+.footer .master_play .bar .dot{
     position: absolute;
     width: 5px;
     height: 5px;
@@ -350,7 +350,7 @@ footer .master_play .bar .dot{
     transition: 1s linear;
 }
 
-footer .master_play  .bar .dot::before{
+.footer .master_play  .bar .dot::before{
     content: '';
     position: absolute;
     width: 15px;
@@ -362,7 +362,7 @@ footer .master_play  .bar .dot::before{
   box-shadow: inset 0px 0px 3px #36e2ec;
 }
 
-footer .master_play .bar input{
+.footer .master_play .bar input{
     content: '';
     position: absolute;
     width: 100%;
@@ -374,7 +374,7 @@ footer .master_play .bar input{
     opacity: 0;
 }
 
-footer .master_play .vol{
+.footer .master_play .vol{
     position: relative;
     width: 5%;
     height: 2px;
@@ -382,7 +382,7 @@ footer .master_play .vol{
     background: rgb(105, 105, 170,.1);
 }
 
-footer .master_play .vol .bi{
+.footer .master_play .vol .bi{
    position: absolute;
    color: #fff;
    font-size: 25px;
@@ -390,7 +390,7 @@ footer .master_play .vol .bi{
    left: -30px; 
 }
 
-footer .master_play .vol input{
+.footer .master_play .vol input{
     position: absolute;
     width: 100%;
     top: -10px;
@@ -402,7 +402,7 @@ footer .master_play .vol input{
 }
 
 
-footer .master_play  .vol .vol_bar{
+.footer .master_play  .vol .vol_bar{
     position: absolute;
     background: #36e2ec;
     width: 0%;
@@ -411,7 +411,7 @@ footer .master_play  .vol .vol_bar{
     transition: 1s linear;
 }
 
-footer .master_play  .vol .dot{
+.footer .master_play  .vol .dot{
     position: absolute;
     width: 5px;
     height: 5px;
@@ -422,7 +422,7 @@ footer .master_play  .vol .dot{
     transition: 1s linear;
 }
 
-footer .master_play  .vol .dot::before{
+.footer .master_play  .vol .dot::before{
     content: '';
     position: absolute;
     width: 15px;
@@ -876,21 +876,16 @@ header .song_side .populars_artists{
                 }
 
         @media (max-width: 500px) {
-            footer .master_play  #back{
+            .footer .master_play  #back{
                 display: none;
             }
-            footer .master_play  .bar{
+
+            .footer .master_play  .bar{
                 display: none;
             }
-            footer .master_play  span{
+            .footer .master_play  span{
                 display: none;
             }
         }
-        @media(max-width: 700px){
-            footer .master_play  .vol{
-                display: none;
-            }
-            footer .master_play  .vol .vol_icon{
-                display: block;
-            }
-        }
+        
+       
