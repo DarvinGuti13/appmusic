@@ -876,21 +876,21 @@ header .song_side .populars_artists{
                 }
 
         @media (max-width: 500px) {
-            .footer .master_play  #back{
+            footer .master_play  #back{
                 display: none;
             }
-            .footer .master_play  .bar{
+            footer .master_play  .bar{
                 display: none;
             }
-            .footer .master_play  span{
+            footer .master_play  span{
                 display: none;
             }
         }
         @media(max-width: 700px){
-            .footer .master_play  .vol{
+            footer .master_play  .vol{
                 display: none;
             }
-            .footer .master_play  .vol .vol_icon{
+            footer .master_play  .vol .vol_icon{
                 display: block;
             }
         }
