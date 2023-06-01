@@ -1007,21 +1007,21 @@ header .song_side .populars_artists{
     }
 } 
 
- /* @media screen and (max-width: 850px), (max-height: 400px){
+  @media screen and (max-width: 850px), (max-height: 400px){
 
- 
     .footer, header{
     height: 100%;
-
+  
     }
     header{
-        width: 50%;
+        width: 75%;
     } 
     .footer{
         
-        width: 50%;
+        width: 25%;
+        position: absolute;
     }
- } */
+ } 
 
 
 
