@@ -603,9 +603,11 @@ header .song_side nav ul li:nth-child(1){
     gap: 15px;
  }
 
- header .song_side nav .user_search2 .search2 .bi{
-    font-size: 13px;
+ header .song_side nav .user_search2 .icons .bi{
+    font-size: 15px;
     padding: 3px 0px 0px 10px;
+    cursor: pointer;
+    outline: none;
  }
 
  header .song_side nav .user{
@@ -907,7 +909,7 @@ header .song_side .populars_artists{
             }
 
             @media(max-width: 1700px){
-            header .song_side .search2{
+            header .song_side .user_search2 .icons{
             display: none;
                         }
 
@@ -916,7 +918,7 @@ header .song_side .populars_artists{
                 header .song_side .search{
                 display: none;
                             }
-            header .song_side .search2{
+            header .song_side .user_search2 .icons{
              display:block;
                             }
 
