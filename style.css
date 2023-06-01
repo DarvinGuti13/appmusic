@@ -907,13 +907,12 @@ header .song_side .populars_artists{
             .footer .master_play  .vol{
                 display: none;
             }
-            .footer .master_play h5{
-                font-size: 2vw;
-            }
 
-            
+                       
         }
 
+       
+/* 
         @media (max-width: 1700px) {
             .footer .master_play .icon_vol2{
                 display: none;
@@ -923,7 +922,7 @@ header .song_side .populars_artists{
             .footer .master_play .icon_vol2{
                 display: block;
             }
-         }
+         } */
 
 
 
