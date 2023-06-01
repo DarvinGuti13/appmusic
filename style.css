@@ -13,7 +13,7 @@ body{
     height: 100vh; 
     background-color: #131312;
     font-family: 'Poppins', sans-serif;
-    flex-wrap: wrap;
+
 }
 
 
@@ -1007,22 +1007,7 @@ header .song_side .populars_artists{
     }
 } 
 
-  @media screen and (max-width: 850px), (max-height: 400px){
-
-    .footer, header{
-    height: 100%;
-  
-    }
-     
-    .footer{
-        width: 25%;
-        order: 1;
-    }
-    header{
-        width: 75%;
-        order: 2;
-    }
- } 
+ 
 
 
 
