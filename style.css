@@ -9,7 +9,7 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
     background-color: #131312;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -30,6 +30,17 @@ header{
     display: flex;
     position: fixed;
     bottom: 0;
+    flex-direction: column;
+}
+
+@media (max-width: 500px) {
+    header{
+        height: 80%;
+    }
+    .footer{
+        height: 20%;
+    }
+    
 }
 
 header .menu_side {
@@ -78,10 +89,18 @@ header .song_side::-webkit-scrollbar-thumb{
 
 .footer .master_play{
     width: 100%;
-    height: 100%;
+    /* height: 50%; */
     background: #111727;
     box-shadow: 0px 3px 8px #090f1f;
 }
+
+.footer .submaster{
+    width: 100%;
+    /* height: 50%; */
+    background: #111727;
+    box-shadow: 0px 3px 8px #090f1f;    
+}
+
 
 header .menu_side h1{
     font-size: 2.5vw;
@@ -207,7 +226,15 @@ header .menu_side .playlist h4{
             display: flex;
             align-items: center;
             padding: 0px 20px;
+            border-radius: 10px;
+          }
 
+          .footer .submaster{
+            display: flex;
+            align-items: center;
+            padding: 0px 20px;
+            background-color: rgba(15, 14, 33, 0.5);
+           
           }
 
           .footer .master_play .wave{
@@ -261,6 +288,7 @@ header .menu_side .playlist h4{
                 height: 10px;
             }
          }
+
          .footer .master_play img{
      width: 35px;
      height: 35px;
@@ -288,13 +316,43 @@ header .menu_side .playlist h4{
     margin: 0px 20px 0px 40px;
 }
 
-
+ .footer .submaster .iconos{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    justify-content: space-between;
+    /* margin: 0px 20px 0px 40px; */
+margin-top: 10px;
+} 
 
 
 .footer .master_play  .icon .bi{
     cursor: pointer;
     outline: none;
 }
+
+.footer .submaster .iconos  .element .bi{
+    cursor: pointer;
+    outline: none;
+}
+
+.footer .submaster .iconos .element{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    align-content: center;
+
+    }
+
+.footer .submaster  .iconos .element h5{
+  padding: 5px 0px 0px 5px;  
+    line-height: 5px;
+    font-size: 10px;
+}
+
+
 
 .footer .master_play .icon .bi:nth-child(2){
     border: 1px solid rgb(105, 105, 170,.1);
@@ -733,6 +791,10 @@ header .song_side .popular_song .pop_song li h5{
     font-size: 0.9vw;
 }
 
+
+
+
+
  /* ****************************************************************************** */
 @media (max-width: 1200px){
     header .song_side .popular_song .pop_song li h5{
@@ -893,10 +955,27 @@ header .song_side .populars_artists{
 
             .footer .master_play  .vol{
                 display: none;
-            }
-
-                       
+            }        
         }
+
+         @media (max-width: 1700px) {
+    .footer .submaster{
+        display: none;
+    }
+     .footer .master_play{
+        height: 100%;
+    } 
+} 
+
+@media (max-width: 500px) {
+    .footer .submaster{
+        display: block;
+        height: 50%;
+    }
+    .footer .master_play{
+        height: 50%;
+    }
+} 
 
  
 
