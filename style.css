@@ -382,20 +382,7 @@ header .menu_side .playlist h4{
     background: rgb(105, 105, 170,.1);
 }
 
-.footer .master_play .icon_vol2{
-    position: relative;
-    width: 5%;
-    height: 2px;
-    margin-left: 50px;
-    background: rgb(105, 105, 170,.1);
-}
-.footer .master_play .icon_vol2 .bi{
-    position: absolute;
-    color: #fff;
-    font-size: 25px;
-    top: -17px;
-    left: -30px;
- }
+
 
 
 .footer .master_play .vol .bi{
@@ -911,20 +898,7 @@ header .song_side .populars_artists{
                        
         }
 
-       
-/* 
-        @media (max-width: 1700px) {
-            .footer .master_play .icon_vol2{
-                display: none;
-            }
-         }
-         @media (max-width: 500px) {
-            .footer .master_play .icon_vol2{
-                display: block;
-            }
-         } */
-
-
+ 
 
 
 
