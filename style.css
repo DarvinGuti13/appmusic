@@ -599,12 +599,13 @@ header .song_side nav ul li:nth-child(1){
     display: flex;
     position:relative;
    justify-content: flex-end;
-    width: 100px;
-    gap: 15px;
+    width: 130px;
+    gap: 10px;
+ 
  }
 
  header .song_side nav .user_search2 .icons .bi{
-    font-size: 15px;
+    font-size: 18px;
     padding: 3px 0px 0px 10px;
     cursor: pointer;
     outline: none;
