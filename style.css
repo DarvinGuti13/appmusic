@@ -397,16 +397,6 @@ header .menu_side .playlist h4{
     left: -30px;
  }
 
- @media (max-width: 1700px) {
-    .footer .master_play .icon_vol2{
-        display: none;
-    }
- }
- @media (max-width: 500px) {
-    .footer .master_play .icon_vol2{
-        display: block;
-    }
- }
 
 .footer .master_play .vol .bi{
    position: absolute;
@@ -918,10 +908,19 @@ header .song_side .populars_artists{
                 display: none;
             }
 
-            .footer .master_play  .vol .vol_icon{
+            
+        }
+
+        @media (max-width: 1700px) {
+            .footer .master_play .icon_vol2{
+                display: none;
+            }
+         }
+         @media (max-width: 500px) {
+            .footer .master_play .icon_vol2{
                 display: block;
             }
-        }
+         }
 
 
 
