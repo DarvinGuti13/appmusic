@@ -72,8 +72,9 @@ header .song_side{
     background: #0b1320;
     box-shadow: 5px 0px 2px #090f1f;
     color: #fff;
-   overflow: auto;
-   overflow: overlay;
+     overflow: auto;
+     overflow: overlay;
+
 }
 
 header .song_side::-webkit-scrollbar{
@@ -85,6 +86,7 @@ header .song_side:hover::-webkit-scrollbar{
 header .song_side::-webkit-scrollbar-thumb{
     background-color: transparent;
 }
+
 
 
 .footer .master_play{
@@ -513,7 +515,7 @@ header .song_side::before{
    z-index: -1;
 }
 
-header .song_side nav{
+header .song_side  nav{
     width: 90%;
     height: 10%;
     margin: auto;
@@ -521,7 +523,6 @@ header .song_side nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 
@@ -573,10 +574,17 @@ header .song_side nav ul li:nth-child(1){
     z-index: -1;
  }
 
- header .song_side nav .menu_botton .bi{
-    font-size: 15px;
+
+
+ header .song_side nav .titleApp{
+    width: 40%;
+    height: auto;
     padding: 3px 0px 0px 10px;
-    color: #36e2ec;
+ }
+
+ header .song_side nav .titleApp h1{
+    font-size: 25px;
+    font-weight: 600;
  }
 
 
@@ -927,7 +935,7 @@ header .song_side .populars_artists{
 
 
                 @media (max-width: 1700px) {
-                    header .song_side nav .menu_botton{
+                    header .song_side nav .titleApp{
                         display: none;
                     }
                 }
@@ -936,9 +944,8 @@ header .song_side .populars_artists{
                     header .song_side nav ul{
                         display: none;
                     }
-                    header .song_side nav .menu_botton {
+                    header .song_side nav .titleApp {
                         display: block;
-                        font-size: 50px;
 
                     }
 
